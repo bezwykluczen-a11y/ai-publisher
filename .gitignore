@@ -1,0 +1,47 @@
+﻿
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Generated images and local test output
+test-images/
+article-images/
+
+# Logs and local database exports
+*.log
+*.dump
+*.sql.gz
+
+# Local archives and editor backups
+*.zip
+*.bak
+*.orig
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated research data
+/knowledge/research/
+
+# Local encoding test
+/encoding-test.json
